@@ -1,0 +1,143 @@
+body{
+    position: relative;
+}
+#header1{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+   
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+}
+.part1{
+    display: flex;
+    color: white;
+    
+}
+.part1 div{
+    padding: 0.7em;
+    font-size: 1.5em;
+}
+#kind{
+    background-color: rgb(39, 37, 37);
+}
+.part2{
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.part2 div{
+    border: 1px solid rgb(13, 13, 13);
+    padding: 10px;
+
+    align-content: center;
+}
+.part2 div:nth-child(4){
+background-color: rgb(162, 234, 54);
+}
+#header2{
+   margin-top: 60px;
+    display: flex;
+    justify-content:space-between ;
+    background-color:#ed078b ;
+}
+.head2{
+    display: flex;
+    
+    
+}
+.head3{
+    display: flex;
+}
+.head2 div{
+    padding: 0.7em;
+    font-size: 1em;
+}
+.head3{
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.head3 div{
+    padding: 10px;
+
+    align-content: center;
+}
+
+#header3{
+    display: flex;
+    justify-content: space-between;
+}
+#img{
+    padding: px;
+}
+#menu{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0 0 0;
+}
+#menu div{
+    font-weight: bold;
+}
+#btn{
+    border-radius: 20px;
+    background-color: #10dad9;
+font-size: 1.5em;
+border: none;
+}
+#parent img{
+    width: 100%;
+    height: 700px;
+  
+}
+#child{
+   height: 300px;
+   width: 450px;
+   background-color: white;
+ 
+   position: absolute;
+   top: 400px;
+   left: 100px;
+   display: flex;
+   justify-content: center;
+   border-radius: 50px;
+}
+#child div{
+font-size: large;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+   
+}
+#child div h1{
+    color:#423f90;
+    
+}
+#child div h2{
+color:#ffd010;
+}
+#child button{
+    background-color: #e80a8a;
+    font-size: large;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-content:center ;
+
+}
+#text1{
+    width: 400px;
+}
+#text1 h1{
+font-style: oblique;
+}
